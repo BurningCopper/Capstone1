@@ -30,9 +30,6 @@ class Program:
         return Customer(first_name, last_name, email_address)
 
     def input_current_order(self):
-        # prices = [34.78, 432.25, 900]
-        # order_total = Totals(prices)
-        # order_total.formatted()
         order_number = input("\nWhat is the order number? ")
         order_description = input("\nWhat is the order description? (limit 60 characters) ")
         return CurrentOrder(order_number, order_description)
@@ -53,7 +50,6 @@ class Program:
             order_lines.append(order_line)
         return order_lines
 
-# print(order_lines)
     
 if __name__ == '__main__':
     program = Program()
