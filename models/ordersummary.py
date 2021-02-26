@@ -10,5 +10,5 @@ class OrderSummary:
         print("=======================================")
         for order_line in self.order_lines:
                 print(f"|{order_line[0]:>8}\t|${float(order_line[1]):>11.2f}|  {int(order_line[2]):6.0f}|".format())
-                print(" _____________________________________")
+                print("|_____________________________________|")
         print("=======================================")
