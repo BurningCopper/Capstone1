@@ -8,6 +8,6 @@ class Customer:
         self.email_address = email_address
 
     def formatted(self):
-        print(f"{self.first_name.title()} {self.last_name.title()}")
+        print(f"\n\n{self.first_name.title()} {self.last_name.title()}")
         print(f"{self.email_address.lower()}")
         print("=======================================")
